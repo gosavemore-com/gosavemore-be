@@ -4,14 +4,19 @@ const userRoutes = require("./routes/userRoutes");
 const productRoutes = require("./routes/productRoutes");
 const { notFound, errorHandler } = require("./middleware/errorMiddleware");
 
-const app = express();
+const server = express();
 
-app.use(cors());
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use("/api/users", userRoutes);
-app.use("/api/products", productRoutes);
-app.use(notFound);
-app.use(errorHandler);
+server.use(cors());
+server.use(express.json());
+server.use(express.urlencoded({ extended: true }));
+server.use("/api/users", userRoutes);
+server.use("/api/products", productRoutes);
 
-module.exports = app;
+server.get("/", (req, res) => {
+  res.send("GoSaveMore is running....");
+});
+
+server.use(notFound);
+server.use(errorHandler);
+
+module.exports = server;
