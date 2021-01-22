@@ -3,10 +3,10 @@ const asyncHandler = require("express-async-handler");
 const Product = require("../models/productModel");
 
 // @desc Fetch all product
-// @route GET /api/products
+// @route GET /api/products/featured
 // @access public
 const fetchProducts = asyncHandler(async (req, res) => {
-  const products = await Product.find({});
+  const products = await Product.find({ featured: true });
   res.json(products);
 });
 

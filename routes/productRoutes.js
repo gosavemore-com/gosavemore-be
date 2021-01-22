@@ -6,7 +6,7 @@ const {
   fetchProductId,
 } = require("../controllers/productController");
 
-router.route("/").get(fetchProducts);
+router.route("/featured").get(fetchProducts);
 router.route("/:id").get(fetchProductId);
 
 module.exports = router;
