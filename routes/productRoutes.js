@@ -4,9 +4,12 @@ const router = express.Router();
 const {
   fetchProducts,
   fetchProductId,
+  fetchProductsFeatured,
 } = require("../controllers/productController");
 
-router.route("/featured").get(fetchProducts);
+router.route("/").get(fetchProducts);
 router.route("/:id").get(fetchProductId);
+router.route("/featured").get(fetchProductsFeatured);
+router.route("/categories/:category").get(fetchProducts);
 
 module.exports = router;
