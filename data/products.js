@@ -150,6 +150,20 @@ const products = [
     countInStock: 20,
     itemNumber: 737964000875,
   },
+  {
+    name: "Datu Puti Soy Sauce and Vinegar (Value Pack) 67oz",
+    image: ["https://ibb.co/7VJSvB1"],
+    brand: "Datu Puti",
+    category: "Sauces & Seasonings",
+    description:
+      "Datu Puti Soy Sauce provides saltiness while Vinegar provides sourness. These products will awaken the flavors of your favorite dishes. It provides the distinct kick and spike needed for dipping and cooking. Grab this value pack now!",
+    reviews: [],
+    rating: 0,
+    numReviews: 0,
+    price: 1.09,
+    countInStock: 20,
+    itemNumber: 737964000875,
+  },
 ];
 
 module.exports = products;
