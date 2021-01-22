@@ -35,7 +35,7 @@ const importData = async () => {
   }
 };
 
-const destoryed = async () => {
+const destroyData = async () => {
   try {
     await Order.deleteMany();
     await Product.deleteMany();
