@@ -37,7 +37,20 @@ const fetchProductsFeatured = asyncHandler(async (req, res) => {
 // @access public
 const fetchProductsCategory = asyncHandler(async (req, res) => {
   const { category } = req.params;
-  const product = await Product.find({ category: category });
+
+  // refactor category for right formatting on database
+  let newCategory = category.replace(/-/g, " ").split(" ");
+
+  if (newCategory.length > 0) {
+    newCategory = newCategory.map(
+      (item) => item[0].toUpperCase() + item.substr(1)
+    );
+    newCategory = newCategory.join(" ");
+  } else {
+    newCategory = newCategory[0];
+  }
+
+  const product = await Product.find({ category: newCategory });
 
   if (product) {
     res.json(product);
