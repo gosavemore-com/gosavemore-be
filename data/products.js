@@ -6,7 +6,7 @@ const products = [
       "https://i.ibb.co/h1R48TQ/Screen-Shot-2021-01-20-at-11-26-23-AM.png",
     ],
     brand: "sarsi",
-    category: "drinks",
+    category: "Drinks",
     description:
       'Catch the "Sarsaparilla" taste of this old time favorite. This drink is similar to the American root beer.',
     reviews: [],
@@ -25,7 +25,7 @@ const products = [
       "https://i.ibb.co/GW26Pz3/Screen-Shot-2021-01-21-at-5-47-53-PM.png",
     ],
     brand: "C2",
-    category: "drinks",
+    category: "Drinks",
     description:
       "C2 green tea Lemon is a refreshing drink brewed from natural green tea leaves where you can really taste the green tea and some kick of the lemon taste.",
     reviews: [],
