@@ -2,8 +2,8 @@ const products = [
   {
     name: "Sarsi in Can 11.2oz",
     image: [
-      "https://i.ibb.co/5WWS0X0/Screen-Shot-2021-01-20-at-11-26-30-AM.png",
-      "https://i.ibb.co/h1R48TQ/Screen-Shot-2021-01-20-at-11-26-23-AM.png",
+      "https://i.ibb.co/kSypgbt/Sarsi-in-Can-11-2oz.jpg",
+      "https://i.ibb.co/jkTmXXN/Sarsi-in-Can-11-2oz-2.jpg",
     ],
     brand: "sarsi",
     category: "Drinks",
@@ -21,8 +21,8 @@ const products = [
   {
     name: "C2 Green Tea - Lemon 16.9oz",
     image: [
-      "https://i.ibb.co/jbQtzsN/Screen-Shot-2021-01-21-at-5-47-48-PM.png",
-      "https://i.ibb.co/GW26Pz3/Screen-Shot-2021-01-21-at-5-47-53-PM.png",
+      "https://i.ibb.co/Y2jDSb2/C2-Green-Tea-Lemon-16-9oz.jpg",
+      "https://i.ibb.co/qstmS6d/C2-Green-Tea-Lemon-16-9oz-2.jpg",
     ],
     brand: "C2",
     category: "Drinks",
@@ -40,8 +40,8 @@ const products = [
   {
     name: "McCormick Banana Flavor Extract 0.6oz",
     image: [
-      "https://i.ibb.co/cxGBvX0/Screen-Shot-2021-01-21-at-6-46-29-PM.png",
-      "https://i.ibb.co/4WWr9pr/Screen-Shot-2021-01-21-at-6-46-43-PM.png",
+      "https://i.ibb.co/hH8BrgP/Mc-Cormick-Banana-Flavor-Extract-0-6oz.jpg",
+      "https://i.ibb.co/Hzd5fc2/Mc-Cormick-Banana-Flavor-Extract-0-6oz-2.jpg",
     ],
     brand: "McCormick ",
     category: "Bottled & Canned",
@@ -59,8 +59,8 @@ const products = [
   {
     name: "Nestle Table Cream 7.6oz",
     image: [
-      "https://i.ibb.co/TRFGvyV/Screen-Shot-2021-01-21-at-6-53-29-PM.png",
-      "https://i.ibb.co/yBtVgMz/Screen-Shot-2021-01-21-at-6-53-38-PM.png",
+      "https://i.ibb.co/fNMLQg5/Nestle-Table-Cream-7-6oz.jpg",
+      "https://i.ibb.co/Tcvh7m7/Nestle-Table-Cream-7-6oz-2.jpg",
     ],
     brand: "Nestle ",
     category: "Bottled & Canned",
@@ -78,8 +78,8 @@ const products = [
   {
     name: "Lucky Me Pancit Canton Original Flavor 2.12oz",
     image: [
-      "https://i.ibb.co/48PsNsc/Screen-Shot-2021-01-21-at-6-56-16-PM.png",
-      "https://i.ibb.co/8rdkByg/Screen-Shot-2021-01-21-at-6-56-23-PM.png",
+      "https://i.ibb.co/cwSSdQs/Lucky-Me-Pancit-Canton-Original-Flavor-2-12oz.jpg",
+      "https://i.ibb.co/Sx7r2Nt/Lucky-Me-Pancit-Canton-Original-Flavor-2-12oz-2.jpg",
     ],
     brand: "Lucky Me ",
     category: "Noodles",
@@ -97,8 +97,8 @@ const products = [
   {
     name: "Lucky Me Supreme Beef Mami 2.47oz",
     image: [
-      "https://i.ibb.co/6m8kJWR/Screen-Shot-2021-01-21-at-6-59-35-PM.png",
-      "https://i.ibb.co/TgSc42y/Screen-Shot-2021-01-21-at-6-59-25-PM.png",
+      "https://i.ibb.co/RYh7hcw/Lucky-Me-Supreme-Beef-Mami-2-47oz.jpg",
+      "https://i.ibb.co/BjkQpdM/Lucky-Me-Supreme-Beef-Mami-2-47oz-2.jpg",
     ],
     brand: "Lucky Me ",
     category: "Noodles",
@@ -116,9 +116,9 @@ const products = [
   {
     name: "White King Bibingka Mix 16oz",
     image: [
-      "https://i.ibb.co/K2BZyyj/Screen-Shot-2021-01-21-at-7-02-04-PM.png",
-      "https://i.ibb.co/X7H9sj4/Screen-Shot-2021-01-21-at-7-01-59-PM.png",
-      "https://i.ibb.co/M2fpfxw/Screen-Shot-2021-01-21-at-7-02-08-PM.png",
+      "https://i.ibb.co/2s4xmYn/White-King-Bibingka-Mix-16oz.jpg",
+      "https://i.ibb.co/WWNXJ0S/White-King-Bibingka-Mix-16oz-2.jpg",
+      "https://i.ibb.co/whSZzBr/White-King-Bibingka-Mix-16oz-3.jpg",
     ],
     brand: "White King",
     category: "Rice & Grains",
@@ -135,9 +135,9 @@ const products = [
   {
     name: "Galinco Sarap Pinoy Ready Mix - Kutsinta 6oz",
     image: [
-      "https://i.ibb.co/xHysRyS/Screen-Shot-2021-01-21-at-7-05-08-PM.png",
-      "https://i.ibb.co/HzGM7xv/Screen-Shot-2021-01-21-at-7-05-01-PM.png",
-      "https://i.ibb.co/k2crL6R/Screen-Shot-2021-01-21-at-7-05-16-PM.png",
+      "https://i.ibb.co/85M24wC/Galinco-Sarap-Pinoy-Ready-Mix-Kutsinta-6oz.jpg",
+      "https://i.ibb.co/NsGjm1B/Galinco-Sarap-Pinoy-Ready-Mix-Kutsinta-6oz-2.jpg",
+      "https://i.ibb.co/SPB10rG/Galinco-Sarap-Pinoy-Ready-Mix-Kutsinta-6oz-3.jpg",
     ],
     brand: "Galinco",
     category: "Rice & Grains",
@@ -154,8 +154,8 @@ const products = [
   {
     name: "Mama Sita Menudo/ Afritada Mix 1.06oz",
     image: [
-      "https://i.ibb.co/vHfMGWQ/Screen-Shot-2021-01-21-at-7-09-36-PM.png",
-      "https://i.ibb.co/xjDKxSF/Screen-Shot-2021-01-21-at-7-09-29-PM.png",
+      "https://i.ibb.co/zH3jB32/Mama-Sita-Menudo-Afritada-Mix-1-06oz.jpg",
+      "https://i.ibb.co/X3gSwvy/Mama-Sita-Menudo-Afritada-Mix-1-06oz-2.jpg",
     ],
     brand: "Mama Sita",
     category: "Sauces & Seasonings",
@@ -172,7 +172,7 @@ const products = [
   {
     name: "Datu Puti Soy Sauce and Vinegar (Value Pack) 67oz",
     image: [
-      "https://i.ibb.co/vmxc1fj/Screen-Shot-2021-01-21-at-7-12-34-PM.png",
+      "https://i.ibb.co/XkfcZKB/Datu-Puti-Soy-Sauce-and-Vinegar-Value-Pack-67oz.jpg",
     ],
     brand: "Datu Puti",
     category: "Sauces & Seasonings",

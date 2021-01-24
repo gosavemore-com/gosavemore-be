@@ -1,12 +1,13 @@
-const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const colors = require("colors");
 const users = require("./data/users.js");
 const products = require("./data/products.js");
+const advertisements = require("./data/advertisements.js");
 const User = require("./models/userModel.js");
 const Product = require("./models/productModel.js");
 const Order = require("./models/orderModel.js");
 const connectDB = require("./config/db");
+const Advertisement = require("./models/advertisementModel.js");
 
 dotenv.config();
 connectDB();
@@ -16,6 +17,7 @@ const importData = async () => {
     await Order.deleteMany();
     await Product.deleteMany();
     await User.deleteMany();
+    await Advertisement.deleteMany();
 
     const createdUsers = await User.insertMany(users);
     const adminUser = createdUsers[0]._id;
@@ -26,8 +28,10 @@ const importData = async () => {
       };
     });
 
+    await Advertisement.insertMany(advertisements);
     await Product.insertMany(sampleProducts);
     console.log("Data importanted!".green.inverse);
+
     process.exit();
   } catch (err) {
     console.log(`${err}`.red.inverse);
