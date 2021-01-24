@@ -10,7 +10,7 @@ const products = [
     description:
       'Catch the "Sarsaparilla" taste of this old time favorite. This drink is similar to the American root beer.',
     reviews: [],
-    rating: 0,
+    rating: 4.3,
     numReviews: 0,
     netWeight: 11.2,
     price: 1.79,
@@ -29,7 +29,7 @@ const products = [
     description:
       "C2 green tea Lemon is a refreshing drink brewed from natural green tea leaves where you can really taste the green tea and some kick of the lemon taste.",
     reviews: [],
-    rating: 0,
+    rating: 5,
     numReviews: 0,
     netWeight: 16.9,
     price: 1.49,
@@ -48,7 +48,7 @@ const products = [
     description:
       "McCormick Banana Flavor Extract bottle adds rich and delicious. Uses in cakes, desserts, icings, beverages, candies. etc.",
     reviews: [],
-    rating: 0,
+    rating: 3.2,
     numReviews: 0,
     netWeight: 0.6,
     price: 2.59,
@@ -67,7 +67,7 @@ const products = [
     description:
       "This is the cream that you need to make different kinds of desserts. It completes the flavor that you want for your desserts.",
     reviews: [],
-    rating: 0,
+    rating: 5,
     numReviews: 0,
     netWeight: 7.6,
     featured: true,
@@ -86,8 +86,8 @@ const products = [
     description:
       "Lucky Me Pancit Canton Original saves the day! Bursting with the rich flavors of sauteed onion, garlic and savory chicken, Lucky Me Pancit Canton Original captures the taste of traditional pancit canton.",
     reviews: [],
-    rating: 0,
-    numReviews: 0,
+    rating: 4,
+    numReviews: 4,
     netWeight: 2.12,
     featured: true,
     price: 0.69,
@@ -105,7 +105,7 @@ const products = [
     description:
       "Lucky Me Supreme Beef Mami is a delicious snack with flavorful beef broth and noodles. This will definitely satisfy your cravings and you will have a happy tummy while eating this.",
     reviews: [],
-    rating: 0,
+    rating: 2.3,
     numReviews: 0,
     netWeight: 2.47,
     featured: false,
@@ -125,7 +125,7 @@ const products = [
     description:
       "Grab our White King Bibingka Mix so that you can have your home-made bibingka! Bibingka is a popular delicacy in the Philippines. Before being served, butter or margarine is spread and sugar is sprinkled over the bibingka. It is typically served with grated coconut. ",
     reviews: [],
-    rating: 0,
+    rating: 1,
     numReviews: 0,
     featured: true,
     price: 3.49,
@@ -144,7 +144,7 @@ const products = [
     description:
       "Puto cuchinta or kutsinta is a type of steamed rice cake found throughout the Philippines. It is made from a mixture of tapioca or rice flour, brown sugar and lye, enhanced with yellow food coloring or annatto extract, and steamed in small ramekins. Make it easy with Galinco Sarap Pinoy Kutsinta Ready Mix.",
     reviews: [],
-    rating: 0,
+    rating: 2,
     numReviews: 0,
     featured: false,
     price: 2.49,
