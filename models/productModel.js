@@ -21,19 +21,23 @@ const productSchema = mongoose.Schema(
     name: {
       type: String,
       required: true,
+      text: true,
     },
     image: [String],
     brand: {
       type: String,
       required: true,
+      text: true,
     },
     category: {
       type: String,
       required: true,
+      text: true,
     },
     description: {
       type: String,
       required: true,
+      text: true,
     },
     reviews: [reviewSchema],
     rating: {
@@ -76,6 +80,13 @@ const productSchema = mongoose.Schema(
     timestamps: true,
   }
 );
+
+productSchema.index({
+  name: 1,
+  description: 1,
+  brand: 1,
+  category: 1,
+});
 
 const Product = mongoose.model("Product", productSchema);
 module.exports = Product;
