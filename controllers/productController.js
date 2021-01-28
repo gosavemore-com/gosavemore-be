@@ -59,9 +59,20 @@ const fetchProductsCategory = asyncHandler(async (req, res) => {
   }
 });
 
+// @desc Fetch search products
+// @route GET /api/products/search?query
+// @access public
+const fetchQuery = asyncHandler(async (req, res) => {
+  const { name } = req.query;
+  const products = await Product.find({ $text: { $search: name } });
+
+  res.json(products);
+});
+
 module.exports = {
   fetchProducts,
   fetchProductId,
   fetchProductsFeatured,
   fetchProductsCategory,
+  fetchQuery,
 };
