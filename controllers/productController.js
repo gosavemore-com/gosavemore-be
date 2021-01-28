@@ -64,7 +64,10 @@ const fetchProductsCategory = asyncHandler(async (req, res) => {
 // @access public
 const fetchQuery = asyncHandler(async (req, res) => {
   const { name } = req.query;
-  const products = await Product.find({ $text: { $search: name } });
+  const products = await Product.find(
+    { $text: { $search: name } },
+    { name: 1, id: 1 }
+  );
 
   res.json(products);
 });
