@@ -5,6 +5,8 @@ const Order = require("../models/orderModel.js");
 // @route   POST /api/orders
 // @access  Private
 const addOrderItems = asyncHandler(async (req, res) => {
+  const id = req.user._id;
+
   const {
     orderItems,
     shippingAddress,
@@ -22,7 +24,7 @@ const addOrderItems = asyncHandler(async (req, res) => {
   } else {
     const order = new Order({
       orderItems,
-      user: req.user._id,
+      user: id,
       shippingAddress,
       paymentMethod,
       itemsPrice,
