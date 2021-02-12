@@ -30,6 +30,7 @@ const paymentOrder = asyncHandler(async (req, res) => {
   });
 });
 
+// add product details later once implemented in FE
 const checkoutOrder = asyncHandler(async (req, res) => {
   const { priceId, amount, modeOfPayment } = req.body;
 
