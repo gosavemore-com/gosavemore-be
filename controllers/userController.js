@@ -40,6 +40,7 @@ const loginUser = asyncHandler(async (req, res) => {
 
   if (user && (await user.matchPassword(password))) {
     res.json({
+      userId: user._id,
       username: user.username,
       email: user.email,
       isAdmin: user.isAdmin,
