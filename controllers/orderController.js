@@ -5,9 +5,8 @@ const Order = require("../models/orderModel.js");
 // @route   POST /api/orders
 // @access  Private
 const addOrderItems = asyncHandler(async (req, res) => {
-  const id = req.user._id;
-
   const {
+    user,
     orderItems,
     shippingAddress,
     paymentMethod,
@@ -20,11 +19,10 @@ const addOrderItems = asyncHandler(async (req, res) => {
   if (orderItems && orderItems.length === 0) {
     res.status(400);
     throw new Error("No order items");
-    return;
   } else {
     const order = new Order({
+      user,
       orderItems,
-      user: id,
       shippingAddress,
       paymentMethod,
       itemsPrice,
