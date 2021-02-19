@@ -18,6 +18,13 @@ server.use("/api/advertisements", advertisementRoutes);
 server.use("/api/orders", orderRoutes);
 server.use("/api/cart", cartRoutes);
 server.use("/api/stripe", stripeRoutes);
+
+// paypal transaction
+server.get("/api/config/paypal", (req, res) =>
+  res.send(process.env.PAYPAL_CLIENT_ID)
+);
+
+// server start
 server.get("/", (req, res) => {
   res.send("GoSaveMore is running....");
 });
